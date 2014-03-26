@@ -1,0 +1,29 @@
+<h1>Feedback</h1>
+
+<form name="feedback" novalidate>
+
+<label name=""
+<label name="email">Email</label>
+<input type="email" name="email" ng-model="email" placeholder="Email Address">
+
+<div class="form-group">
+<label for="how_was_the_meal">How was your meal?</label>
+<br />
+
+<input type="radio" ng-model="meal" value="excellent"> Excellent<br />
+
+<input type="radio" ng-model="meal" value="good"> Good
+<br />
+
+<input type="radio" ng-model="meal" value="needsImprovement"> Needs Improvement
+<br />
+
+</div>
+
+
+ <div class="form-group">
+    <label for="yourComment">Your Comment</label>
+    <textarea class="form-control" rows="5"></textarea>
+  </div>
+
+</form>
