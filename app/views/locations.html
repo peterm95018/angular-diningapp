@@ -1,5 +1,9 @@
  <div class="container">
+<div ng-controller="LocationsCtrl">
+$scope.awesomeThings: {{ awesomeThings }}
+<li ng-repeat="phone in phones | filter:query | orderBy:orderProp">{{ phone.name }} - {{phone.id}} </li>
 
+</div>
 	      <div class="row">
 	        <div class="col-lg-12">
 	          <h1 class="page-header">Dining Locations<small></small></h1>

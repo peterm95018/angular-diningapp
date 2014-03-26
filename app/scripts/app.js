@@ -25,7 +25,6 @@ angular.module('angularDiningappApp', [
         templateUrl: 'views/locations.html',
         controller: 'LocationsCtrl'
       })
-
       .otherwise({
         redirectTo: '/'
       });
