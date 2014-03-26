@@ -17,10 +17,15 @@ angular.module('angularDiningappApp', [
         templateUrl: 'views/map.html',
         controller: 'MapCtrl'
       })
+      .when('/feedback', {
+        templateUrl: 'views/feedback.html',
+        controller: 'FeedbackCtrl'
+      })
       .when('/locations', {
         templateUrl: 'views/locations.html',
         controller: 'LocationsCtrl'
       })
+
       .otherwise({
         redirectTo: '/'
       });
