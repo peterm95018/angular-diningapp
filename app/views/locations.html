@@ -1,7 +1,8 @@
  <div class="container">
 <div ng-controller="LocationsCtrl">
 $scope.awesomeThings: {{ awesomeThings }}
-<li ng-repeat="phone in phones | filter:query | orderBy:orderProp">{{ phone.name }} - {{phone.id}} </li>
+<li ng-repeat="location in locations" >
+{{ location.LocName }} - {{location.Days}} - {{location.Hours}} </li>
 
 </div>
 	      <div class="row">

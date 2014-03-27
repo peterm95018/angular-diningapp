@@ -9,9 +9,9 @@ angular.module('angularDiningappApp')
     ];
 
     //$scope.locationsHours = [];
-    $http.get('data/phones.json')
+    $http.get('data/new_loc_hours.json')
     .success(function(data) {
-    	$scope.phones = data;
+    	$scope.locations = data;
 
     	//alert('got it');
     })

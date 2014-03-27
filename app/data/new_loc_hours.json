@@ -8,5 +8,25 @@
     "LocName": "Perk Coffee @ Earth & Marine Science",
     "Days": "Fri",
     "Hours": "7:30am-2:00pm"
+  },
+  {
+    "LocName": "Perk Coffee @ Physical Sciences Building",
+    "Days": "M-Th",
+    "Hours": "7:30am-4:00pm"
+  },
+  {
+    "LocName": "Perk Coffee @ Physical Sciences Building",
+    "Days": "Fri",
+    "Hours": "7:30am-2:00pm"
+  },
+  {
+    "LocName": "Perk Coffee @ Baskin Engineering",
+    "Days": "M-Th",
+    "Hours": "7:30am-6:00pm"
+  },
+  {
+    "LocName": "Perk Coffee @ Baskin Engineering",
+    "Days": "Fri",
+    "Hours": "7:30am-2:00pm"
   }
 ]
