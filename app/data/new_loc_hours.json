@@ -1,32 +1,123 @@
 [
   {
     "LocName": "Perk Coffee @ Earth & Marine Science",
-    "Days": "M-Th",
-    "Hours": "7:30am-4:00pm"
-  },
-  {
-    "LocName": "Perk Coffee @ Earth & Marine Science",
-    "Days": "Fri",
-    "Hours": "7:30am-2:00pm"
-  },
-  {
-    "LocName": "Perk Coffee @ Physical Sciences Building",
-    "Days": "M-Th",
-    "Hours": "7:30am-4:00pm"
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "7:30am-4:00pm",
+      "7:30am-2:00pm"
+    ]
   },
   {
     "LocName": "Perk Coffee @ Physical Sciences Building",
-    "Days": "Fri",
-    "Hours": "7:30am-2:00pm"
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "7:30am-4:00pm",
+      "7:30am-2:00pm"
+    ]
   },
   {
     "LocName": "Perk Coffee @ Baskin Engineering",
-    "Days": "M-Th",
-    "Hours": "7:30am-6:00pm"
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "7:30am-6:00pm",
+      "7:30am-2:00pm"
+    ]
   },
   {
-    "LocName": "Perk Coffee @ Baskin Engineering",
-    "Days": "Fri",
-    "Hours": "7:30am-2:00pm"
+    "LocName": "Perk Coffee @ University Center",
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "7:30am-6:00pm",
+      "7:30am-2:00pm"
+    ]
+  },
+  {
+    "LocName": "Perk Coffee @ Science Library",
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "8:00am-4:00pm",
+      "8:00am-2:00pm"
+    ]
+  },
+  {
+    "LocName": "College Eight Cafe",
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "8:00am-10:00pm",
+      "8:00am-5:00pm"
+    ]
+  },
+  {
+    "LocName": "Owl's Nest Cafe",
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "7:30am-8:30pm",
+      "7:30am-5:00pm"
+    ]
+  },
+  {
+    "LocName": "Oakes Cafe",
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "8:30am-11:00pm",
+      "8:30am-5:00pm"
+    ]
+  },
+  {
+    "LocName": "Cowell Coffee Shop",
+    "Days": [
+      "M-Th",
+      "Fri"
+    ],
+    "Hours": [
+      "7:45am-11:30pm",
+      "8:30am-5:00pm"
+    ]
+  },
+  {
+    "LocName": "Porter Slug Grill",
+    "Days": [
+      "M-Th",
+      "Fri",
+      "Sat-Sun"
+    ],
+    "Hours": [
+      "7:00am-11:00pm",
+      "7:00am-4:00pm",
+      "3:00pm-10:00pm"
+    ]
+  },
+  {
+    "LocName": "Terra Fresca Restaurant",
+    "Days": [
+      "M-F"
+    ],
+    "Hours": [
+      "7:00am-11:00pm"
+    ]
   }
 ]
