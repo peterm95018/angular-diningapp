@@ -1,8 +1,17 @@
  <div class="container">
 <div ng-controller="LocationsCtrl">
 $scope.awesomeThings: {{ awesomeThings }}
-<li ng-repeat="location in locations" >
-{{ location.LocName }} - {{location.Days}} - {{location.Hours}} </li>
+<table ng-repeat="location in locations" >
+<tr>
+<td><th>{{ location.LocName }}</th></td>
+</tr>
+
+<tr ng-repeat="day in location.Days">
+<td> {{ day }} </td>
+<td ng-repeat="hour in location.Hours"> {{ hour }}</td>
+</tr>
+
+</table>
 
 </div>
 	      <div class="row">
