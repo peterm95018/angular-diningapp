@@ -1,29 +1,36 @@
-<h1>Feedback</h1>
+<h1>Dining Feedback</h1>
 
-<form name="feedback" novalidate>
+<form class="form-horizontal" role="form" ng-controller="FeedbackCtrl">
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-4">
+			<input class="form-control" id="email" placeholder="Email Address" ng-model="formInfo.Email">
+		</div>
+	</div>
 
-<label name=""
-<label name="email">Email</label>
-<input type="email" name="email" ng-model="email" placeholder="Email Address">
+	<div class="form-group">
+		<label for="Meal" class="col-sm-2 control-label">How was your meal?</label>
+		<div class="col-sm-4">
+			<input type="radio" value="excellent" ng-model="formInfo.Meal"> Excellent <br />
+			<input type="radio" value="good" ng-model="formInfo.Meal"> Good <br />
+			<input type="radio" value="needsImprovement" ng-model="formInfo.Meal"> Needs Improvement 
+		</div>
+	</div>
 
-<div class="form-group">
-<label for="how_was_the_meal">How was your meal?</label>
-<br />
+ 	<div class="form-group">
+    	<label for="Comment" class="col-sm-2 control-label">Your Comment</label>
+    		<div class="col-sm-4">
+    		<textarea class="form-control" rows="5" ng-model="formInfo.Comment"></textarea>
+    		</div>
+  	</div>
 
-<input type="radio" ng-model="meal" value="excellent"> Excellent<br />
-
-<input type="radio" ng-model="meal" value="good"> Good
-<br />
-
-<input type="radio" ng-model="meal" value="needsImprovement"> Needs Improvement
-<br />
-
-</div>
-
-
- <div class="form-group">
-    <label for="yourComment">Your Comment</label>
-    <textarea class="form-control" rows="5"></textarea>
-  </div>
+  	<div class="form-group">
+  		<div class="col-sm-offset-2 col-sm-10">
+  			<button type="submit" ng-click="saveData()" class="btn btn-success">Submit</button>
+  		</div>
+  	</div>
+<span>{{formInfo}}</span>
+<span ng-show="emailRequired">{{emailRequired}}</span>
 
 </form>
+<!-- sourced from http://www.sitepoint.com/html-forms-angularjs/?utm_medium=email&utm_campaign=SitePoint -->
